@@ -1,0 +1,5 @@
+package com.padcmyanmar.mm_healthcare_app_assignment_yyp.events
+
+import com.padcmyanmar.mm_healthcare_app_assignment_yyp.data.vos.HealthcareInfoVO
+
+class SuccessGetHealthcareInfoEvent(val healthcareInfoList: List<HealthcareInfoVO>)
